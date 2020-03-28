@@ -1,0 +1,20 @@
+@import 'src/_variables.scss';
+
+// Define your application's custom theme.
+//$primary: mat-palette($mat-indigo);
+
+.page-heading{
+    margin-bottom: 40px;
+
+    .mat-toolbar{
+        font-weight: normal;
+        font-size: medium;
+        background-color: #522a98;
+        background-color: $primary-dark;
+        color: #fff;
+
+        span{
+            margin-left: 10px;
+        }
+    }
+}

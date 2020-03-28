@@ -28,7 +28,7 @@ export class AppComponent {
   }
 
   ngOnInit(){
-    this.fetchData();
+    //this.fetchData();
   }
 
 
