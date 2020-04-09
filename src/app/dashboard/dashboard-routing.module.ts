@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard.component';
-import { DashboardUserComponent } from './dashboard-user.component';
+import { NewSplitComponent } from './addnew/new-split.component';
 
 const routes: Routes = [
     { path: '', component: DashboardComponent },
-    { path: 'user', component: DashboardUserComponent },
+    { path: 'split/new', component: NewSplitComponent },
 ];
 
 @NgModule({

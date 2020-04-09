@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
   //{ path: 'home', component: DashboardComponent },
   { path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)},
+  { path: 'user', loadChildren: () => import('./modules/users/users.module').then(m => m.UsersModule)},
   { path: 'khapa/scene', component: KhapasceneComponent },
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent }
 ];
